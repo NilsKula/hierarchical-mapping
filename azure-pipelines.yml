@@ -3,6 +3,6 @@ pool:
 
 steps:
   - script: |
-      docker build -t lending-app:latest .
-      docker run --rm -u root lending-app:latest build
+      docker build -t hierarchical-mapping:latest .
+      docker run --rm -u root hierarchical-mapping:latest build
     displayName: 'Build'
