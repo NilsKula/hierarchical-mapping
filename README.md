@@ -6,6 +6,10 @@ You are able to add new bikes, cars and afterwards retrieve table content trough
 vehicle repository all together or sort them out. Also there is a simple UI to
 execute all the requests. Run in terminal `npm start` at frontend directory.
 
+To start application locally, use docker and enter command in terminal docker 
+` docker run -p 5432:5432 -e POSTGRES_USER=nils -e POSTGRES_PASSWORD=nils -e POSTGRES_DB=hierarchical_mapping postgres
+`
+
 ##Vehicle API
 
 **Add Bike**
